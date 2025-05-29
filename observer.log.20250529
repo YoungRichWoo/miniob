@@ -1,0 +1,44 @@
+[2025-05-29 12:09:41.590516 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: init@init.cpp:201] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2025-05-29 12:09:41.592137 pid:15511 tid:7ff60fa146c0 ctx:0 INFO: thread_func@thread_pool_executor.cpp:118] >> [ObLsmBackground] thread started
+[2025-05-29 12:09:41.593418 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.594042 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.594713 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.595328 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.595937 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.596460 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.597043 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.597605 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.598253 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.599011 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.599616 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.600311 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.600863 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.601539 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.602154 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.602807 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.603402 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.603950 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.604585 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.605120 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: extend@mem_pool.h:251] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.605166 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: init@mem_pool.h:197] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2025-05-29 12:09:41.605192 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:775] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2025-05-29 12:09:41.605362 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: load_pages@double_write_buffer.cpp:287] >> double write buffer load pages done. page num=0
+[2025-05-29 12:09:41.605534 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: init_meta@db.cpp:323] >> Db meta file not exist. db=sys, file=miniob/db/sys/sys.db
+[2025-05-29 12:09:41.606028 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: open_all_tables@db.cpp:233] >> All table have been opened. num=0
+[2025-05-29 12:09:42.826415 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: recover@db.cpp:314] >> Successfully recover db. db=sys checkpoint_lsn=0
+[2025-05-29 12:09:42.826606 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: init@default_handler.cpp:67] >> Default handler init with miniob success
+[2025-05-29 12:09:42.826654 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: init@init.cpp:216] >> Successfully init utility
+[2025-05-29 12:10:03.534866 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: ~CliCommunicator@cli_communicator.cpp:87] >> Command history saved to ./.miniob.history
+[2025-05-29 12:10:03.534942 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: main@main.cpp:203] >> Server stopped
+[2025-05-29 12:10:04.061137 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: sync@db.cpp:262] >> double write buffer flush pages ret=SUCCESS
+[2025-05-29 12:10:04.061483 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: flush_meta@db.cpp:395] >> Successfully write db meta file. db=sys, file=miniob/db/sys/sys.db.tmp, check_point_lsn=0
+[2025-05-29 12:10:04.061581 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: sync@db.cpp:281] >> Successfully sync db. db=sys
+[2025-05-29 12:10:04.069012 pid:15511 tid:7ff60fa146c0 ctx:0 INFO: thread_func@thread_pool_executor.cpp:176] >> [ObLsmBackground] thread exit
+[2025-05-29 12:10:04.261876 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: ~Db@db.cpp:49] >> Db has been closed: sys
+[2025-05-29 12:10:04.479199 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: cleanup@mem_pool.h:223] >> Successfully do cleanup, this->name:BufPool.
+[2025-05-29 12:10:04.479335 pid:15511 tid:7ff612bdb7c0 ctx:0 INFO: cleanup_util@init.cpp:230] >> Shutdown Cleanly!
