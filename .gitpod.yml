@@ -1,3 +1,14 @@
 coreDump:
   enabled: true
 image: oceanbase/miniob:latest
+
+tasks:
+  - name: install replxx
+    init: |
+      sudo apt update
+      sudo apt install -y git cmake g++
+      git clone https://github.com/AmokHuginnsson/replxx.git
+      cd replxx && mkdir build && cd build
+      cmake ..
+      make -j$(nproc)
+      sudo make install
