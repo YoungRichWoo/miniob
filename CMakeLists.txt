@@ -176,6 +176,10 @@ MESSAGE(STATUS "Using replxx for line reading")
 FIND_PACKAGE(Threads REQUIRED)
 FIND_PACKAGE(replxx REQUIRED)
 
+include_directories(/usr/local/include)
+link_directories(/usr/local/lib)
+target_link_libraries(your_target_name replxx)
+
 # ADD_SUBDIRECTORY(src bin)  bin 为目标目录， 可以省略
 # ADD_SUBDIRECTORY(deps)
 ADD_SUBDIRECTORY(src)
