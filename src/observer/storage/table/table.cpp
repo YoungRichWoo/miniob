@@ -307,7 +307,6 @@ RC Table::update_record(const Record &old_record, const Record &new_record)
         new_record.rid().page_num, new_record.rid().slot_num, rc, strrc(rc));
     return rc;
   }
-  // 前面的区域以后再来探索吧
   // if (trx != nullptr) {
   //   CLogRecord *clog_record = nullptr;
   //   rc = clog_manager_->clog_gen_record(CLogType::REDO_INSERT, trx->get_current_id(), clog_record, name(),
