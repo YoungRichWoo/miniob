@@ -1876,7 +1876,7 @@ RC BplusTreeScanner::fix_user_key(
     return RC::INVALID_ARGUMENT;
   }
 
-  // 这里很粗暴，变长字段才需要做调整，其它默认都不需要做调整
+  // 变长字段才需要做调整，其它默认都不需要做调整
   assert(tree_handler_.file_header_.attr_type == CHARS);
   assert(strlen(user_key) >= static_cast<size_t>(key_len));
 
