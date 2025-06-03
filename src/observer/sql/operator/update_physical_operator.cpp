@@ -15,12 +15,6 @@
 
 RC UpdatePhysicalOperator::open(Trx *trx)
 {
-  if (trx != nullptr && TrxManager::instance()->is_enable_mvcc()) {
-    LOG_WARN("UPDATE in MVCC mode is disabled.");
-    return RC::UNIMPLENMENT;
-  }
-
-
   if (children_.empty()) {
     return RC::SUCCESS;
   }
